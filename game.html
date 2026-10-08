@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <title>咪卡培育中</title>
+
+    <head>
+        <meta charset="UTF-8">
+        <title>咪卡培育中</title>
+
+        <style>
+            body {
+                text-align: center;
+                background-color: #ffe6f2;
+                font-family: "Microsoft JhengHei", sans-serif;
+            }
+
+            h1 {
+                font-size: 45px;
+                color: #663399;
+            }
+
+            img {
+                width: 300px;
+            }
+
+            p {
+                font-size: 24px;
+            }
+
+            button {
+                font-size: 20px;
+                padding: 12px 25px;
+                margin: 5px;
+                cursor: pointer;
+            }
+        </style>
+    </head>
+
+
+</head>
+
+<body>
+
+    <h1>咪卡培育中</h1>
+
+
+    <img src="AU D83.jpeg" width="300">
+
+    <h2>Day <span id="day">1</span></h2>
+
+    <p>❤️ 心情：<span id="mood">80</span></p>
+
+    <p>⚡ 體力：<span id="stamina">70</span></p>
+
+    <p>💕 好感度：<span id="affection">20</span></p>
+
+    <p>📚 學習：<span id="study">0</span></p>
+
+    <br>
+
+    <button onclick="studyAction()">📚 學習</button>
+
+    <button onclick="restAction()">😴 休息</button>
+
+    <button onclick="playAction()">🎮 玩耍</button>
+
+    <button onclick="eatAction()">🍰 吃飯</button>
+
+    <p id="message">今天要做什麼呢？</p>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
